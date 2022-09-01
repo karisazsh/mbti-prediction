@@ -9,8 +9,6 @@ from sklearn.feature_extraction.text import CountVectorizer
 import streamlit as st
 import pickle
 from PIL import Image
-from rdkit import Chem
-from rdkit.Chem import Descriptors
 # import mbti data from another file
 import mbti_data as data
 

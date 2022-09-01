@@ -9,7 +9,7 @@ from sklearn.feature_extraction.text import CountVectorizer
 import streamlit as st
 import pickle
 from PIL import Image
-# import mbti data from another file
+# import  data from another file
 import mbti_data as data
 
 ######################

@@ -83,7 +83,7 @@ st.header('Predicted MBTI descriptors')
 st.title('\n' + prediction[0] + " - " + data.mbti[prediction[0]]['alias'] + '\n\n')
 
 # icon of the MBTI type
-img = Image.open('mbti_ava\\' + prediction[0] + '.png')
+img = Image.open('mbti\-' + prediction[0] + '.png')
 st.image(img, width=250)
 
 # description of MBTI type separated every new line

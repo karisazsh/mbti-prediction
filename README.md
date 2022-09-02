@@ -1,12 +1,15 @@
-# MBTI web app deployed on Heroku
+# MBTI prediction web app deployed on Heroku
 
-The deployed web app is live at https://dp-penguins.herokuapp.com/
+The deployed web app is live at https://mbti-pred.herokuapp.com/
 
-This web app predicts the species of penguins as a function of their input parameters (bill length, bill width, flipper length, body mass, sex and island).
+This web app predicts the MBTI type of a person based on their typing/writing.
 
 The web app was built in Python using the following libraries:
 * streamlit
 * pandas
 * numpy
+* regex
+* contractions
 * scikit-learn
 * pickle
+* Pillow
